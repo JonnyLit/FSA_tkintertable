@@ -1,0 +1,58 @@
+{
+    "X": {
+        "x0": {
+            "isInit": "1",
+            "isFinal": "0",
+            "isProhibited": "0"
+        },
+        "x1": {
+            "isInit": "0",
+            "isFinal": "0",
+            "isProhibited": "1"
+        },
+        "x2": {
+            "isInit": "0",
+            "isFinal": "1",
+            "isProhibited": "0"
+        }
+    },
+    "E": {
+        "a": {
+            "isObs": "1",
+            "isContr": "1",
+            "isFaulty": "0"
+        },
+        "c": {
+            "isObs": "1",
+            "isContr": "1",
+            "isFaulty": "0"
+        },
+        "b": {
+            "isObs": "1",
+            "isContr": "1",
+            "isFaulty": "0"
+        }
+    },
+    "delta": {
+        "A": {
+            "start": "x0",
+            "name": "a",
+            "ends": "x1"
+        },
+        "B": {
+            "start": "x0",
+            "name": "c",
+            "ends": "x2"
+        },
+        "C": {
+            "start": "x1",
+            "name": "b",
+            "ends": "x1"
+        },
+        "D": {
+            "start": "x1",
+            "name": "b",
+            "ends": "x2"
+        }
+    }
+}
